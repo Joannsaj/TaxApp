@@ -6,9 +6,9 @@
 
 ## Description
 
-{This app is meant to help users in calculating thier taxes
+This app is meant to help users in calculating their taxes
 and remind them on time to file their taxes to avoid penalties and give one a flawless journey in using it to submit their taxes.
- }
+
 
 ## Setup/Installation Requirements
 
@@ -39,7 +39,7 @@ The topics or modules covered in this project include but not limited to;
 
 ## Support and contact details
 
-{For support and any queries relating to this project please reach us through;
+For support and any queries relating to this project please reach us through;
 
 1. Email: bernardmairura@gmail.com/ joansaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
 
