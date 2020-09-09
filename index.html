@@ -7,8 +7,8 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <title>Tax App</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,100 +19,99 @@
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contacts</a>
+    </div>
 
-        <div class="container">
-            <div id="mc_embed_signup">
-                <form
-                    action="https://gmail.us17.list-manage.com/subscribe/post?u=08ac2c2ac3e893c7754296da8&amp;id=ae09cb008b"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <h2>SIGN UP FORM</h2>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-                            </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name </label>
-                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-LNAME">Last Name </label>
-                            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                        </div>
-                        <div class="mc-field-group size1of2">
-                            <label for="mce-BIRTHDAY-month">Birthday </label>
-                            <div class="datefield">
-                                <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*"
-                                        value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]"
-                                        id="mce-BIRTHDAY-month"></span> /
-                                <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*"
-                                        value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]"
-                                        id="mce-BIRTHDAY-day"></span>
-                                <span class="small-meta nowrap">( mm / dd )</span>
-                            </div>
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                name="b_08ac2c2ac3e893c7754296da8_ae09cb008b" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Signup" name="signup" id="mc-embedded-subscribe"
-                                class="button"></div>
-                    </div>
-                </form>
+    <div class="taxlog">
+        <h1 style="float:right">TaxApp</h1>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#calculator">Calculator</a></li>
+        <li style="float:right"><a class="active" href="#report">Report</a></li>
+    </ul>
+
+
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1> Welcome to the TaxApp</h1>
+                    <p>This applicaation helps the people keep in check with their Taxes.</p>
+                </div>
             </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript' src="js/scripts.js"></script>
 
-        </div>
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h1>Countdown</h1>
+                    <p>This timer works to help clients know there deadline day by alerting them at the end</p>
 
-        <div class="taxlog">
-            <h1 style="float:right">TaxApp</h1>
-        </div>
-
-        <div id="main">
-            <button class="openbtn" onclick="openNav()">☰ Menu</button>
-        </div>
-
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#calculator">Calculator</a></li>
-            <li style="float:right"><a class="active" href="#report">Report</a></li>
-        </ul>
-
-
-        <div class="container" id="main">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="jumbotron">
-                        <h1> Welcome to the TaxApp</h1>
-                        <p>This applicaation helps the people keep in check with their Taxes.</p>
-                    </div>
+                    <p id="demo"></p>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="jumbotron">
-                        <h1>Countdown</h1>
-                        <p>This timer works to help clients know there deadline day by alerting them at the end</p>
-
-                        <p id="demo"></p>
-                    </div>
-                </div>
-
-
             </div>
         </div>
+    </div>
+    <div class="container signup">
+        <div id="mc_embed_signup">
+            <form
+                action="https://gmail.us17.list-manage.com/subscribe/post?u=08ac2c2ac3e893c7754296da8&amp;id=ae09cb008b"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <h2>SIGN UP FORM</h2>
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-FNAME">First Name </label>
+                        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-LNAME">Last Name </label>
+                        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                    </div>
+                    <div class="mc-field-group size1of2">
+                        <label for="mce-BIRTHDAY-month">Birthday </label>
+                        <div class="datefield">
+                            <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*"
+                                    value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]"
+                                    id="mce-BIRTHDAY-month"></span> /
+                            <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*"
+                                    value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]"
+                                    id="mce-BIRTHDAY-day"></span>/
+                            <span class="subfield yearfield"><input class="birthday " type="text" pattern="[0-9]*"
+                                    value="" placeholder="YY" size="4" maxlength="4" name="BIRTHDAY[day]"
+                                    id="mce-BIRTHDAY-day"></span>
+                            <span class="small-meta nowrap">( mm / dd /yy)</span>
+                          </div>
+                        </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                            name="b_08ac2c2ac3e893c7754296da8_ae09cb008b" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Signup" name="signup" id="mc-embedded-subscribe"
+                            class="button"></div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.js"
-            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-        <script type='text/javascript' src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript' src="js/scripts.js"></script>
+
 
 </body>
 
