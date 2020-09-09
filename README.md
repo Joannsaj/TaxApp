@@ -6,9 +6,8 @@
 
 ## Description
 
-{This app is meant to help you keep track  your taxable properties,business and your individual income tax contribution.
-It should remind you to file your taxes to avoid penalties
-and give you a flawless journey in using it to submit your taxes.
+{This app is meant to help users in calculating thier taxes
+and remind them on time to file their taxes to avoid penalties and give one a flawless journey in using it to submit their taxes.
  }
 
 ## Setup/Installation Requirements
@@ -24,7 +23,7 @@ and give you a flawless journey in using it to submit your taxes.
 
 ## Known Bugs
 
-{ }
+{ Adding a formular to the app that requests the user to add the TaxApp to the calender and after adding it should prompt the user before the due date.}
 
 ## Technologies Used
 
@@ -40,11 +39,10 @@ and give you a flawless journey in using it to submit your taxes.
 
 ## Support and contact details
 
-{For support and any queries relating to this project please reach me theough;
+{For support and any queries relating to this project please reach us theough;
 
 1. Email: bernardmairura@gmail.com/ joansaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
-2. linkdin: Bernard Mairura 
-3. Twitter: @BenaMyrura  .}
+
 
 ### Contributers
 
