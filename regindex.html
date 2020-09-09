@@ -37,6 +37,7 @@
                         </div>
                         <label for ="name">Do you want to register for TOT ?<span class ="required">*</span>
                         <input type="checkbox" id ="yes" value="yes"><label for ="Yes">Yes</label> &nbsp <input type="checkbox" id ="no" value="no"><label for ="no">No</label>
+                        <br><br>
                 <h2 class="text-left text-black c-text">Employee's Profession: </h2><br>
                   <form action="/action_page.php">
                   <label for ="name" > Major Group: <span class="required">*</span></label>
@@ -136,6 +137,58 @@
                   <option value="County">Kakamega</option>
                   <option value="County">Isiolo</option>
                   <option value="County">Garissa</option>
+                  </select>
+                <label for ="name" >District: <span class="required">*</span></label><input id="name"type="text"/><br><br>
+
+                <label for ="name" >Tax Area/Locality: <span class="required">*</span></label><input id="name"type="text"/>
+                 <div class="row input">
+                        <div class="col-md-2"></div>
+                        <label for ="name" > Descriptive Address:<textarea class="form-control col-md-8 text" rows="12" name="Desriptive Address" placeholder=""type="text"/></textarea>
+                        (Maximum characters: 200)
+You have characters left.<div class="col-md-2"></div>
+                    </div>
+                     </label> 
+                    <br><br>
+
+                <h2 class="text-left text-black c-text">Principal Postal Address</h2><br>
+                <label for ="name" > Postal Code: <span class="required">*</span></label>
+                  <select name ="Postal Code"id="Postal Code" required>
+                  <option value="">--select--</option>
+                  </select>
+                   <label for ="name" > Town: <span class="required">*</span></label>
+                  <select name ="town"id="Town" required>
+                  <option value="">--select--</option>
+                  </select>
+                  <br><br>
+                 <label for ="name" >P.O Box:</label><input id="name"type="text"/> 
+                 <br><br>
+
+            <h2 class="text-left text-black c-text">Principal Contact Details</h2><br>
+              <label for ="name" >Telephone Number: </label> <span class="required">*</span><input id="name"type="text"/>
+              <label for ="name" >Mobile Number (1): </label> <span class="required">*</span><input id="name"type="text"/><br> <br>
+               <label for ="name" > Mobile Number (2): </label><input id="name"type="text"/> 
+               <label for ="name" > Mobile Number (3) (optional): </label><input id="name"type="text"/> <br><br>
+               <label for ="name" >Main Email Address: </label><span class="required">*</span><input id="name"type="text"/> 
+                <label for ="name" > Secondary Email Address: </label><input id="name"type="text"/> 
+                <br><br>
+
+                <h2 class="text-left text-black c-text">SMS Notification</h2><br>
+                <label for ="name">Would you like to Subscribe/Unsubscribe of receiving alerts through SMS?<span class ="required">*</span>
+                        <input type="checkbox" id ="subscribe" value="subscribe"><label for ="subscribe">Subscribe</label> &nbsp <input type="checkbox" id ="unsubscribe" value="unsubscribe"><label for ="unsubscribe">Unsubscribe</label>
+                        <br><br>
+
+            <h1 class="text-center text-Black b-text">Alternative Address and Contact Details</h1><br>
+                <label for ="name" > Do you have an Alternative Address?: </label>
+                  <select name ="alternative"id="alternative" required>
+                  <option value="">--select--</option>
+                  <option value="County">Yes</option>
+                  <option value="County">No</option>
+                  </select>
+
+
+
+
+                  
 
             
 
