@@ -1,14 +1,14 @@
 <!--headings-->
 
-# {Moringa Prep34 Project-TaxApp}
+# Moringa Prep34 Project-TaxApp
 
-#### {Using JQUery and JavaScript to Traverse DOM}, {28th Aug 2020}
+#### Using JQUery and JavaScript to Traverse DOM, 28th Aug 2020
 
 ## Description
 
-{This app is meant to help users in calculating thier taxes
+This app is meant to help users in calculating their taxes
 and remind them on time to file their taxes to avoid penalties and give one a flawless journey in using it to submit their taxes.
- }
+
 
 ## Setup/Installation Requirements
 
@@ -23,13 +23,13 @@ and remind them on time to file their taxes to avoid penalties and give one a fl
 
 ## Known Bugs
 
-{ Adding a formular to the app that requests the user to add the TaxApp to the calender and after adding it should prompt the user before the due date.}
+ Adding a formular to the app that requests the user to add the TaxApp to the calender and after adding it should prompt the user before the due date.
 
 ## Technologies Used
 
-{The topics or modules covered in this project include but not limited to;}
+The topics or modules covered in this project include but not limited to;
 
-* Figma:https://www.figma.com/file/ydMIiZzNVtIDOCfBTOjOWL/TaxApp?node-id=0%3A1
+* [Figma](https://www.figma.com/file/ydMIiZzNVtIDOCfBTOjOWL/TaxApp?node-id=0%3A1)
 * CSS
 * HTML5
 * JavaScript
@@ -39,18 +39,18 @@ and remind them on time to file their taxes to avoid penalties and give one a fl
 
 ## Support and contact details
 
-{For support and any queries relating to this project please reach us theough;
+For support and any queries relating to this project please reach us through;
 
 1. Email: bernardmairura@gmail.com/ joansaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
 
 
-### Contributers
+### Contributors
 
- **{Bernard Mairura: <bernardmairura@gmail.com>}**
- **{Joan Nansamba: <joansaj@gmail.com>}**
- **{Fred Atei: <akamaatei@gmail.com>}**
- **{Bethwel Kiplimo: <bkiplimo@princeton.edu>}**
- **{Grace Oshwal: <graceoswal88@gmail.com>}**
+ **Bernard Mairura: <bernardmairura@gmail.com>**
+ **Joan Nansamba: <joansaj@gmail.com>**
+ **Fred Atei: <akamaatei@gmail.com>**
+ **Bethwel Kiplimo: <bkiplimo@princeton.edu>**
+ **Grace Oshwal: <graceoswal88@gmail.com>**
 
 ### License and Copyright
 
