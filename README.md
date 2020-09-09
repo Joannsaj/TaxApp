@@ -52,7 +52,7 @@ and give you a flawless journey in using it to submit your taxes.
  **{Joan Nansamba: <joansaj@gmail.com>}**
  **{Fred Atei: <akamaatei@gmail.com>}**
  **{Bethwel Kiplimo: <bkiplimo@princeton.edu>}**
- **{Grace: <>}**
+ **{Grace Oshwal: <graceoswal88@gmail.com>}**
 
 ### License and Copyright
 
