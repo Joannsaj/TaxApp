@@ -29,7 +29,7 @@ and remind them on time to file their taxes to avoid penalties and give one a fl
 
 The topics or modules covered in this project include but not limited to;
 
-* Figma:https://www.figma.com/file/ydMIiZzNVtIDOCfBTOjOWL/TaxApp?node-id=0%3A1
+* [Figma](https://www.figma.com/file/ydMIiZzNVtIDOCfBTOjOWL/TaxApp?node-id=0%3A1)
 * CSS
 * HTML5
 * JavaScript
@@ -44,7 +44,7 @@ The topics or modules covered in this project include but not limited to;
 1. Email: bernardmairura@gmail.com/ joansaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
 
 
-### Contributers
+### Contributors
 
  **Bernard Mairura: <bernardmairura@gmail.com>**
  **Joan Nansamba: <joansaj@gmail.com>**
