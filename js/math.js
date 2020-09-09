@@ -12,3 +12,6 @@ function myTax(salary) {
         return (0.2 * 57333.33) + (0.25 * (salary - 57333.33));
     }
 }
+function finalTax(salary) {
+    return myTax(salary) - 2400;
+}
