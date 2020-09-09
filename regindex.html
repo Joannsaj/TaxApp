@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <title>Tax App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+        <div class="jumbotron-fluid">
+            <div class="overlay">
+                <img src="images/logo/logo.png" alt="logo" class="mx-auto d-block">
+                <h1 class="text-Black text-center welcome h-text">Welcome</h1>
+                <h1 class="text-Black text-center taxapp h-text">TO Tax App</h1>
+                <h6 class="text-Black text-center text h-text smaller-text">The Reliable Online Tax Payment. <br> 24/7.
+                </h6>
+ <div class="basics">
+        <div class="basics-overlay">
+            <h1 class="text-center text-Black b-text">Section A : Basic Information</h1><br>
+            
+                <form id="form">
+                
+                       <h2 class="text-left text-black c-text">Residential Details</h2><br>
+                        
+                <form>
+                <div class="control">
+                        <label for ="name"> Citizenship: <span class ="required">*</span>
+                        <input type="checkbox" id ="citizenship" value="Kenyan"><label for ="citizenship">Kenyan</label>
+                         <input type="checkbox" id ="citizenship" value="Non Kenyan Resident"><label for ="citizenship">Kenyan</label>
+                          <input type="checkbox" id ="citizenship" value="Non Kenyan Non Resident"><label for ="citizenship">Kenyan</label>
+                        <br><br><br>
+                        </div>
+                        <label for ="name">Do you want to register for TOT ?<span class ="required">*</span>
+                        <input type="checkbox" id ="yes" value="yes"><label for ="Yes">Yes</label> &nbsp <input type="checkbox" id ="no" value="no"><label for ="no">No</label>
+                <h2 class="text-left text-black c-text">Employee's Profession: </h2><br>
+                  <form action="/action_page.php">
+                  <label for ="name" > Major Group: <span class="required">*</span></label>
+                  <select name ="profession"id="profession" required>
+                  <option value="">--select--</option>
+                  <option value="professionals">Professionals</option>
+                  <option value="service workers">Service Workers</option>
+                  <option value="agriculture">Agriculture</option>
+                  <option value="constructions">Constructions</option>
+                  <option value="senior government officials">Senior Government Officials</option>
+                  <option value="student">Student</option>
+                  <option value="transport">Transport</option>
+                  <option value="mining">Mining</option>
+                  <option value="manufacturing">Manufacturing</option>
+                  </select>
+                  <br><br>
+
+                <label for ="name" > Sub Group: <span class="required">*</span></label>
+                  <select name ="profession"id="profession" required>
+                  <option value="">--select--</option>
+                  </select>
+
+                <label for ="name" > Minor Group: <span class="required">*</span></label>
+                  <select name ="profession"id="profession" required>
+                  <option value="">--select--</option>
+                  <option value="">--select</option>
+                  </select>
+                <h2 class="text-left text-black c-text">National Id. Details</h2><br>
+            <label for ="name" >National Id. Number: <span class="required">*</span></label>
+            
+
+
+
+                    <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
