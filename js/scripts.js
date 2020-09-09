@@ -56,3 +56,13 @@ var x = setInterval(function () {
 }(jQuery));
 var $mcj = jQuery.noConflict(true);
 
+//Bernard's
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
