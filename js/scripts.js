@@ -59,7 +59,12 @@ var $mcj = jQuery.noConflict(true);
 
 jQuery(document).ready(function () {
   $("#sign").click(function () {
-    $("#signup").toggle()
+    $("#signup").show()
   });
+
+  $(".button").click(function () {
+    $("#signup").hide()
+  });
+
 
 });
