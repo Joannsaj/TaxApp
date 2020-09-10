@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+
+/*
+'Shadows Into Light', cursive
+*/
+label{
+    
+    width: 120px;
+    horizontal-align: top;
+
+}
+.required{
+    color: darkred;
+}
+.h-text{
+    text-align: center;
+    
+    text- color: brown;
+    
+}
+Input[text=text],select.textarea{
+    width: 100%px;
+    padding:12px;
+    border:2px solid red;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+}
+label{
+    padding:12px 12px 12px 0;
+}

@@ -41,13 +41,13 @@ The topics or modules covered in this project include but not limited to;
 
 For support and any queries relating to this project please reach us through;
 
-1. Email: bernardmairura@gmail.com/ joansaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
+1. Email: bernardmairura@gmail.com/ joannsaj@gmail.com/     akamaatei@gmail.com/ bkiplimo@princeton.edu/
 
 
 ### Contributors
 
  **Bernard Mairura: <bernardmairura@gmail.com>**
- **Joan Nansamba: <joansaj@gmail.com>**
+ **Joan Nansamba: <joannsaj@gmail.com>**
  **Fred Atei: <akamaatei@gmail.com>**
  **Bethwel Kiplimo: <bkiplimo@princeton.edu>**
  **Grace Oshwal: <graceoswal88@gmail.com>**

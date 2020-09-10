@@ -1,16 +1,16 @@
 
 .sidebar {
-  height: 100%;
+  height: 100%; 
   width: 0;
   position: fixed;
-  z-index: 1;
+ z-index: 1; 
   top: 0;
-  left: 0;
+  left: 0; 
   background-color: #111;
-  overflow-x: hidden;
+  overflow-x: hidden; 
   transition: 0.5s;
   padding-top: 60px;
-}
+}   
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -104,4 +104,19 @@ li a:hover:not(.active) {
     background: #fff;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
+}
+/*making the login a pop up div*/
+
+#signup {
+  display: none;
+  z-index: 3;
+  border-radius: 15px;
+  padding: 20px;
+  width: 40%;
+  height: 80%;
+  background: #818181;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

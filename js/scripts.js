@@ -12,7 +12,7 @@ function closeNav() {
 }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 11, 2020 15:37:25").getTime();
+var countDownDate = new Date("Sep 25, 2020 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -36,23 +36,30 @@ var x = setInterval(function () {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "FILE YOUR TAXES";
+    alert("File your taxes to avoid the penalty")
   }
 }, 1000);
 
 (function ($) {
-    window.fnames = new Array();
-    window.ftypes = new Array();
-    fnames[0] = 'EMAIL';
-    ftypes[0] = 'email';
-    fnames[1] = 'FNAME';
-    ftypes[1] = 'text';
-    fnames[2] = 'LNAME';
-    ftypes[2] = 'text';
-    fnames[4] = 'PHONE';
-    ftypes[4] = 'phone';
-    fnames[5] = 'BIRTHDAY';
-    ftypes[5] = 'birthday';
+  window.fnames = new Array();
+  window.ftypes = new Array();
+  fnames[0] = 'EMAIL';
+  ftypes[0] = 'email';
+  fnames[1] = 'FNAME';
+  ftypes[1] = 'text';
+  fnames[2] = 'LNAME';
+  ftypes[2] = 'text';
+  fnames[4] = 'PHONE';
+  ftypes[4] = 'phone';
+  fnames[5] = 'BIRTHDAY';
+  ftypes[5] = 'birthday';
 }(jQuery));
 var $mcj = jQuery.noConflict(true);
 
+jQuery(document).ready(function () {
+  $("#sign").click(function () {
+    $("#signup").toggle()
+  });
+
+});
