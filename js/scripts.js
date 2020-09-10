@@ -36,7 +36,8 @@ var x = setInterval(function () {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "FILE YOUR TAXES";
+    alert("File your taxes to avoid the penalty")
   }
 }, 1000);
 
@@ -56,3 +57,9 @@ var x = setInterval(function () {
 }(jQuery));
 var $mcj = jQuery.noConflict(true);
 
+jQuery(document).ready(function () {
+  $("#sign").click(function () {
+    $("#signup").toggle()
+  });
+
+});
