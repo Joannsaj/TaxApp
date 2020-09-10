@@ -14,9 +14,8 @@ label{
     color: darkred;
 }
 .h-text{
-    text-align: center;
-    
-    text- color: brown;
+    text-align: center; 
+    color: brown;
     
 }
 Input[text=text],select.textarea{
@@ -39,6 +38,9 @@ background-color: darkslategray;
 #person{
     background-color: powderblue;
 
+}
+#address{
+    background-color: burlywood; 
 }
 #account{
 background-color: slateblue;
