@@ -105,8 +105,7 @@ li a:hover:not(.active) {
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
 }
-/*I was trying to make a div pop up when you click on the sign up then hide when you submit(I've failed to make hide it on submit)*/
-/*
+
 .signup {
   z-index: 3;
   border-radius: 15px;
@@ -118,4 +117,4 @@ li a:hover:not(.active) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}*/
+}
