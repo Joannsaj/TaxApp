@@ -15,7 +15,19 @@ label{
 }
 .h-text{
     text-align: center;
-    .h1{
-        color: brown;
-    }
+    
+    text- color: brown;
+    
 }
+Input[text=text],select.textarea{
+    width: 100%px;
+    padding:12px;
+    border:2px solid red;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+}
+label{
+    padding:12px 12px 12px 0;
+}
+.button
