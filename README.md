@@ -2,7 +2,7 @@
 
 # Moringa Prep34 Project-TaxApp
 
-#### Using JQUery and JavaScript to Traverse DOM, 28th Aug 2020
+#### Using JQUery and JavaScript to Traverse DOM, 10th Sept 2020
 
 ## Description
 
