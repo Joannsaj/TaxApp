@@ -7,7 +7,7 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <title>Tax App</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
-   
+
     <link href="./css/regstyle.css" rel="stylesheet">
 </head>
 
@@ -15,217 +15,321 @@
     <div class="container-fluid">
         <div class="jumbotron-fluid">
             <div class="overlay">
-                <img src="images/logo/logo.png" alt="logo" class="mx-auto d-block">
-                <h1 class="text-Black text-center welcome h-text">Welcome</h1>
-                <h2 class="text-Black text-center taxapp h-text">TO Tax App</h2>
-                <h6 class="text-Black text-center text h-text smaller-text">The Reliable Online Tax Payment. <br> 24/7.
-                </h6>
-                <div class="basics">
-                    <div class="basics-overlay">
-                        <h1 class="text-center text-Black b-text">Section A : Basic Information</h1><br>
+                <div class="jumbotron" id="heading">
+                    <img src="images/logo/logo.png" alt="logo" class="mx-auto d-block">
+                    <h1 class="text-Black text-center welcome h-text">Welcome</h1>
+                    <h2 class="text-Black text-center taxapp h-text">TO Tax App</h2>
+                    <h6 class="text-Black text-center text h-text smaller-text">The Reliable Online Tax Payment. <br>
+                        24/7.
+                    </h6>
+                </div>
+                <!--
 
-                        <form id="form">
 
-                            <h2 class="text-left text-black c-text">Residential Details</h2><br>
 
-                            <form>
-                                <div class="control">
-                                    <label for="name"> Citizenship: <span class ="required">*</span></label>
-                                    <input type="checkbox" id="citizenship" value="Kenyan"><label for="citizenship">Kenyan</label>
-                                    <input type="checkbox" id="ctz" value="Non Kenyan Resident"><label for="citizenship">Kenyan</label>
-                                    <input type="checkbox" id="ctz_1" value="Non Kenyan Non Resident"><label for="citizenship">Kenyan</label>
-                                    <br><br><br>
-                                </div>
-                                <label for="name">Do you want to register for TOT ?<span class ="required">*</span>
-                        <input type="checkbox" id ="yes" value="yes"><label for ="Yes">Yes</label> &nbsp <input type="checkbox" id="no" value="no"><label for="no">No</label>
-                                <br><br>
-                                <h2 class="text-left text-black c-text">Employee's Profession: </h2><br>
-                                <form action="/action_page.php">
-                                    <label for="name"> Major Group: <span class="required">*</span></label>
-                                    <select name="profession" id="profession" required>
-                  <option value="">--select--</option>
-                  <option value="professionals">Professionals</option>
-                  <option value="service workers">Service Workers</option>
-                  <option value="agriculture">Agriculture</option>
-                  <option value="constructions">Constructions</option>
-                  <option value="senior government officials">Senior Government Officials</option>
-                  <option value="student">Student</option>
-                  <option value="transport">Transport</option>
-                  <option value="mining">Mining</option>
-                  <option value="manufacturing">Manufacturing</option>
-                  </select>
-                                    <br><br>
+-->
+                <div class="jumbotron" id="person">
+                    <div class="basics">
+                        <div class="basics-overlay">
+                            <h1 class="text-center text-Black b-text">Section A : Basic Information</h1><br>
 
-                                    <label for="name"> Sub Group: <span class="required">*</span></label>
-                                    <select name="profession" id="prof" required>
-                  <option value="">--select--</option>
-                  </select>
+                            <form id="form">
 
-                                    <label for="name"> Minor Group: <span class="required">*</span></label>
-                                    <select name="profession" id="prof_1" required>
-                  <option value="">--select--</option>
-                  <option value="">--select</option>
-                  </select>
-                                    <br>
-                                    <h2 class="text-left text-black c-text">National Id. Details</h2><br>
-                                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="name" type="text" /><br>
-                                    <label for="name">Issue Place: </label><input id="place" type="text" />
-                                    <label for="name">Issue Date: </label><input id="date" type="text" />
-                                    <br><br>
+                                <h2 class="text-left text-black c-text">Residential Details</h2><br>
 
-                                    <h2 class="text-left text-black c-text">Individual Data. </h2><br>
-                                    <label for="name">First Name: <span class="required">*</span></label><input id="first" type="text" />&nbsp <label for="name">Middle Name:</label><input id="middname" type="text" /><br><br>
-                                    <label for="name">Last Name: </label> <span class="required">*</span><input id="last" type="text" />
-                                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="birth" type="text" /><br> <br>
-                                    <label for="name"> Place of Birth: </label><input id="pbirth" type="text" />
-                                    <label for="name">Marital Status: </label><input id="status" type="text" /><br><br>
-                                    <label for="name">Sex:</label><input type="checkbox" id="sex" value="sex"> Female <input type="checkbox" id="fsex" value="sex">Male <br>
-                                    <br><br>
-                                    <h2 class="text-left text-black c-text"> Particulars of Father</h2><br>
-                                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="id" type="text" /><br>
-                                    <label for="name">First Name: <span class="required">*</span></label><input id="ffirst" type="text" />&nbsp <label for="name">Middle Name:</label><input id="midname" type="text" /><br><br>
-                                    <label for="name">Last Name: </label> <span class="required">*</span><input id="flast" type="text" />
-                                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dob" type="text" /><br> <br>
-                                    <label for="name"> Place of Birth: </label><input id="pob" type="text" />
-                                    <br><br>
+                                <form>
+                                    <div class="control">
+                                        <label for="name"> Citizenship: <span class="required">*</span></label>
+                                        <input type="checkbox" id="citizenship" value="Kenyan"><label
+                                            for="citizenship">Kenyan</label>
+                                        <input type="checkbox" id="ctz" value="Non Kenyan Resident"><label
+                                            for="citizenship">Kenyan</label>
+                                        <input type="checkbox" id="ctz_1" value="Non Kenyan Non Resident"><label
+                                            for="citizenship">Kenyan</label>
+                                        <br><br><br>
+                                    </div>
+                                    <label for="name">Do you want to register for TOT ?<span class="required">*</span>
+                                        <input type="checkbox" id="yes" value="yes"><label for="Yes">Yes</label> &nbsp
+                                        <input type="checkbox" id="no" value="no"><label for="no">No</label>
+                                        <br><br>
+                                        <h2 class="text-left text-black c-text">Employee's Profession: </h2><br>
+                                        <form action="/action_page.php">
+                                            <label for="name"> Major Group: <span class="required">*</span></label>
+                                            <select name="profession" id="profession" required>
+                                                <option value="">--select--</option>
+                                                <option value="professionals">Professionals</option>
+                                                <option value="service workers">Service Workers</option>
+                                                <option value="agriculture">Agriculture</option>
+                                                <option value="constructions">Constructions</option>
+                                                <option value="senior government officials">Senior Government Officials
+                                                </option>
+                                                <option value="student">Student</option>
+                                                <option value="transport">Transport</option>
+                                                <option value="mining">Mining</option>
+                                                <option value="manufacturing">Manufacturing</option>
+                                            </select>
+                                            <br><br>
 
-                                    <h2 class="text-left text-black c-text"> Particulars of Mother</h2><br>
-                                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="idname" type="text" /><br>
-                                    <label for="name">First Name: <span class="required">*</span></label><input id="firstname" type="text" />&nbsp <label for="name">Middle Name:</label><input id="mid_name" type="text" /><br><br>
-                                    <label for="name">Last Name: </label> <span class="required">*</span><input id="lastname" type="text" />
-                                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dobname" type="text" /><br> <br>
-                                    <label for="name"> Place of Birth: </label><input id="pobname" type="text" />
-                                    <br><br>
-                                    <h2 class="text-left text-black c-text"> Particulars of Spouse</h2><br>
-                                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="id_name" type="text" /><br>
-                                    <label for="name">First Name: <span class="required">*</span></label><input id="first_name" type="text" />&nbsp <label for="name">Middle Name:</label><input id="mid1name" type="text" /><br><br>
-                                    <label for="name">Last Name: </label> <span class="required">*</span><input id="last_name" type="text" />
-                                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dob_name" type="text" /><br> <br>
-                                    <label for="name"> Place of Birth: </label><input id="pob_name" type="text" />
-                                    <br><br>
-                        <h2 class="text-left text-black c-text">Principal Physical Address </h2><br>
-                                    <label for="name">L.R. Number:</label><input id="lrname" type="text" />
-                                    <label for="name">Building:<span class="required">*</span></label><input id="buildingname" type="text" /><br><br>
-                                    <label for="name">Street/Road: </label> <span class="required">*</span><input id="streetname" type="text" /> <label for="name">City/Town: </label> <span class="required">*</span><input id="cityname" type="text" /><br>                                    <br>
-                                    <label for="name"> County: <span class="required">*</span></label>
-                                    <select name="County" id="County" required>
-                  <option value="">--select--</option>
-                  <option value="County">Nairobi</option>
-                  <option value="County">Meru</option>
-                  <option value="County">Baringo</option>
-                  <option value="County">Nairobi</option>
-                  <option value="County">Kwale</option>
-                  <option value="County">Kilifi</option>
-                  <option value="County">Embu</option>
-                  <option value="County">Narok</option>
-                  <option value="County">Kiambu</option>
-                  <option value="County">Embu</option>
-                  <option value="County">Busia</option>
-                  <option value="County">Nyeri</option>
-                  <option value="County">Makueni</option>
-                  <option value="County">Kisii</option>
-                  <option value="County">Homabay</option>
-                  <option value="County">Mandera</option>
-                  <option value="County">Marsabit</option>
-                  <option value="County">Machakos</option>
-                  <option value="County">Kisumu</option>
-                  <option value="County">Eldoret</option>
-                  <option value="County">Kitui</option>
-                  <option value="County">Kwale</option>
-                  <option value="County">Lamu</option>
-                  <option value="County">Kericho</option>
-                  <option value="County">Nakuru</option>
-                  <option value="County">Kakamega</option>
-                  <option value="County">Isiolo</option>
-                  <option value="County">Garissa</option>
-                  </select>
-                                    <label for="name">District: <span class="required">*</span></label><input id="distname" type="text" /><br><br>
+                                            <label for="name"> Sub Group: <span class="required">*</span></label>
+                                            <select name="profession" id="prof" required>
+                                                <option value="">--select--</option>
+                                            </select>
 
-                                    <label for="name">Tax Area/Locality: <span class="required">*</span></label><input id="taxname" type="text" />
-                                    <div class="row input">
-                                        <div class="col-md-2"></div>
-                                        <label for="name"> Descriptive Address:<textarea class="form-control col-md-8 text" rows="12" name="Desriptive Address" placeholder=""type="text"/></textarea>
-                        (Maximum characters: 200)You have characters left.<div class="col-md-2"></div>
-                        <br><br>
-                
-                    
-                    <h2 class="text-left text-black c-text">Principal Postal Address</h2><br>
-                     <form action="/action_page.php">
-                            <label for="name"> Postal Code: <span class="required">*</span></label>
-                            <select name="Postal Code" id="Postal Code" required>
-                             <option value="">--select--</option>
+                                            <label for="name"> Minor Group: <span class="required">*</span></label>
+                                            <select name="profession" id="prof_1" required>
+                                                <option value="">--select--</option>
+                                                <option value="">--select</option>
+                                            </select>
+                                            <br>
+                                            <h2 class="text-left text-black c-text">National Id. Details</h2><br>
+                                            <label for="name">National Id. Number: <span
+                                                    class="required">*</span></label><input id="name" type="text" /><br>
+                                            <label for="name">Issue Place: </label><input id="place" type="text" />
+                                            <label for="name">Issue Date: </label><input id="date" type="text" />
+                                            <br><br>
+
+                                            <h2 class="text-left text-black c-text">Individual Data. </h2><br>
+                                            <label for="name">First Name: <span class="required">*</span></label><input
+                                                id="first" type="text" />&nbsp <label for="name">Middle
+                                                Name:</label><input id="middname" type="text" /><br><br>
+                                            <label for="name">Last Name: </label> <span class="required">*</span><input
+                                                id="last" type="text" />
+                                            <label for="name">Date of Birth: </label> <span
+                                                class="required">*</span><input id="birth" type="text" /><br> <br>
+                                            <label for="name"> Place of Birth: </label><input id="pbirth" type="text" />
+                                            <label for="name">Marital Status: </label><input id="status"
+                                                type="text" /><br><br>
+                                            <label for="name">Sex:</label><input type="checkbox" id="sex" value="sex">
+                                            Female <input type="checkbox" id="fsex" value="sex">Male <br>
+                                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                <!--
+
+
+    
+-->
+                <div class="jumbotron" id="family">
+                    <h2 class="text-left text-black c-text"> Particulars of Father</h2><br>
+                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="id"
+                        type="text" /><br>
+                    <label for="name">First Name: <span class="required">*</span></label><input id="ffirst"
+                        type="text" />&nbsp <label for="name">Middle Name:</label><input id="midname"
+                        type="text" /><br><br>
+                    <label for="name">Last Name: </label> <span class="required">*</span><input id="flast"
+                        type="text" />
+                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dob"
+                        type="text" /><br> <br>
+                    <label for="name"> Place of Birth: </label><input id="pob" type="text" />
+                    <br><br>
+
+                    <h2 class="text-left text-black c-text"> Particulars of Mother</h2><br>
+                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="idname"
+                        type="text" /><br>
+                    <label for="name">First Name: <span class="required">*</span></label><input id="firstname"
+                        type="text" />&nbsp <label for="name">Middle
+                        Name:</label><input id="mid_name" type="text" /><br><br>
+                    <label for="name">Last Name: </label> <span class="required">*</span><input id="lastname"
+                        type="text" />
+                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dobname"
+                        type="text" /><br> <br>
+                    <label for="name"> Place of Birth: </label><input id="pobname" type="text" />
+                    <br><br>
+                    <h2 class="text-left text-black c-text"> Particulars of Spouse</h2><br>
+                    <label for="name">National Id. Number: <span class="required">*</span></label><input id="id_name"
+                        type="text" /><br>
+                    <label for="name">First Name: <span class="required">*</span></label><input id="first_name"
+                        type="text" />&nbsp <label for="name">Middle
+                        Name:</label><input id="mid1name" type="text" /><br><br>
+                    <label for="name">Last Name: </label> <span class="required">*</span><input id="last_name"
+                        type="text" />
+                    <label for="name">Date of Birth: </label> <span class="required">*</span><input id="dob_name"
+                        type="text" /><br> <br>
+                    <label for="name"> Place of Birth: </label><input id="pob_name" type="text" />
+                    <br><br>
+                </div>
+                <!--
+
+
+    
+-->
+                <div class="jumbotron" id="address">
+                    <h2 class="text-left text-black c-text">Principal Physical Address </h2><br>
+                    <label for="name">L.R. Number:</label><input id="lrname" type="text" />
+                    <label for="name">Building:<span class="required">*</span></label><input id="buildingname"
+                        type="text" /><br><br>
+                    <label for="name">Street/Road: </label> <span class="required">*</span><input id="streetname"
+                        type="text" /> <label for="name">City/Town: </label> <span class="required">*</span><input
+                        id="cityname" type="text" /><br> <br>
+                    <label for="name"> County: <span class="required">*</span></label>
+                    <select name="County" id="County" required>
+                        <option value="">--select--</option>
+                        <option value="County">Nairobi</option>
+                        <option value="County">Meru</option>
+                        <option value="County">Baringo</option>
+                        <option value="County">Nairobi</option>
+                        <option value="County">Kwale</option>
+                        <option value="County">Kilifi</option>
+                        <option value="County">Embu</option>
+                        <option value="County">Narok</option>
+                        <option value="County">Kiambu</option>
+                        <option value="County">Embu</option>
+                        <option value="County">Busia</option>
+                        <option value="County">Nyeri</option>
+                        <option value="County">Makueni</option>
+                        <option value="County">Kisii</option>
+                        <option value="County">Homabay</option>
+                        <option value="County">Mandera</option>
+                        <option value="County">Marsabit</option>
+                        <option value="County">Machakos</option>
+                        <option value="County">Kisumu</option>
+                        <option value="County">Eldoret</option>
+                        <option value="County">Kitui</option>
+                        <option value="County">Kwale</option>
+                        <option value="County">Lamu</option>
+                        <option value="County">Kericho</option>
+                        <option value="County">Nakuru</option>
+                        <option value="County">Kakamega</option>
+                        <option value="County">Isiolo</option>
+                        <option value="County">Garissa</option>
+                    </select>
+                    <label for="name">District: <span class="required">*</span></label><input id="distname"
+                        type="text" /><br><br>
+
+                    <label for="name">Tax Area/Locality: <span class="required">*</span></label><input id="taxname"
+                        type="text" />
+                    <div class="row input">
+                        <div class="col-md-2"></div>
+                        <label for="name"> Descriptive Address:<textarea class="form-control col-md-8 text" rows="12"
+                                name="Desriptive Address" placeholder="" type="text" /></textarea>
+                            (Maximum characters: 200)You have characters left.<div class="col-md-2">
+                            </div>
+                            <br><br>
+
+
+                            <h2 class="text-left text-black c-text">Principal Postal Address</h2>
+                            <br>
+                            <form action="/action_page.php">
+                                <label for="name"> Postal Code: <span class="required">*</span></label>
+                                <select name="Postal Code" id="Postal Code" required>
+                                    <option value="">--select--</option>
                                 </select>
-                            
-                                        <label for="name"> Town: <span class="required">*</span></label>
-                                        <select name="town" id="Town" required>
-                  <option value="">--select--</option>
-                  </select>
+
+                                <label for="name"> Town: <span class="required">*</span></label>
+                                <select name="town" id="Town" required>
+                                    <option value="">--select--</option>
+                                </select>
+                                <br><br>
+                                <label for="name">P.O Box:</label><input id="pbox" type="text" />
+                                <br><br>
+                            </form>
+                    </div>
+                </div>
+                <!--
+
+
+    
+-->
+                <div class="jumbotron" id="contact">
+                    <h2 class="text-left text-black c-text">Principal Contact Details</h2>
+                    <br>
+                    <label for="name">Telephone Number: </label> <span class="required">*</span><input id="phonen"
+                        type="text" />
+                    <label for="name">Mobile Number (1): </label> <span class="required">*</span><input id="mob1"
+                        type="text" /><br> <br>
+                    <label for="name"> Mobile Number (2): </label><input id="mob2" type="text" />
+                    <label for="name"> Mobile Number (3) (optional): </label><input id="mob3" type="text" />
+                    <br><br>
+                    <label for="name">Main Email Address: </label><span class="required">*</span><input id="email"
+                        type="text" />
+                    <label for="name"> Secondary Email Address: </label><input id="s.email" type="text" />
+                    <br><br>
+
+                    <h2 class="text-left text-black c-text">SMS Notification</h2><br>
+                    <label for="name">Would you like to Subscribe/Unsubscribe of receiving
+                        alerts through SMS?<span class="required">*</span>
+                        <input type="checkbox" id="subscribe" value="subscribe"><label for="subscribe">Subscribe</label>
+                        &nbsp <input type="checkbox" id="unsubscribe" value="unsubscribe"><label
+                            for="unsubscribe">Unsubscribe</label>
                         <br><br>
-                                        <label for="name">P.O Box:</label><input id="pbox" type="text" />
-                                        <br><br>
-                                        </form>
 
-                            <h2 class="text-left text-black c-text">Principal Contact Details</h2><br>
-                                        <label for="name">Telephone Number: </label> <span class="required">*</span><input id="phonen" type="text" />
-                                        <label for="name">Mobile Number (1): </label> <span class="required">*</span><input id="mob1" type="text" /><br> <br>
-                                        <label for="name"> Mobile Number (2): </label><input id="mob2" type="text" />
-                                        <label for="name"> Mobile Number (3) (optional): </label><input id="mob3" type="text" /> <br><br>
-                                        <label for="name">Main Email Address: </label><span class="required">*</span><input id="email" type="text" />
-                                        <label for="name"> Secondary Email Address: </label><input id="s.email" type="text" />
-                                        <br><br>
+                        <h1 class="text-center text-Black b-text">Alternative Address and
+                            Contact Details</h1><br>
+                        <label for="name"> Do you have an Alternative Address?: </label>
+                        <select name="alternative" id="alternative" required>
+                            <option value="">--select--</option>
+                            <option value="County">Yes</option>
+                            <option value="County">No</option>
+                        </select>
+                </div>
+                <!--
 
-                            <h2 class="text-left text-black c-text">SMS Notification</h2><br>
-                                        <label for="name">Would you like to Subscribe/Unsubscribe of receiving alerts through SMS?<span class ="required">*</span>
-                        <input type="checkbox" id ="subscribe" value="subscribe"><label for ="subscribe">Subscribe</label> &nbsp <input type="checkbox" id="unsubscribe" value="unsubscribe"><label for="unsubscribe">Unsubscribe</label>
-                                        <br><br>
 
-             <h1 class="text-center text-Black b-text">Alternative Address and Contact Details</h1><br>
-                             <label for="name"> Do you have an Alternative Address?: </label>
-                                    <select name="alternative" id="alternative" required>
-                  <option value="">--select--</option>
-                  <option value="County">Yes</option>
-                  <option value="County">No</option>
-                  </select>
-            <h1 class="text-center text-Black b-text">Bank Account Details.</h1><br>
-                            <label for="name"> Do you wish to declare your Bank Account for tax refunds?:<span class="required">*</span></label>
-                                    <select name="refund" id="ref" required>
-                  <option value="">--select--</option>
-                  <option value="County">Yes</option>
-                  <option value="County">No</option>
-                  </select>
-            <h1 class="text-center text-Black b-text">Are you a partner, director or trustee in any other entity?.</h1><br>
+    
+-->
+                <div class="jumbotron" id="account">
+                    <h1 class="text-center text-Black b-text">Bank Account Details.</h1>
+                    <br>
+                    <label for="name"> Do you wish to declare your Bank Account for tax
+                        refunds?:<span class="required">*</span></label>
+                    <select name="refund" id="ref" required>
+                        <option value="">--select--</option>
+                        <option value="County">Yes</option>
+                        <option value="County">No</option>
+                    </select>
+                    <h1 class="text-center text-Black b-text">Are you a partner,
+                        director or trustee in any other entity?.</h1><br>
                     <form action="/action_page.php">
-                            <label for="name"> Are you a partner, director or trustee in any other entity?:<span class="required">*</span></label>
-                                    <input type="radio" id="Yes" value="yes"><label for="entity">Yes</label>&nbsp<input type="radio" id="no" value="no"><label for="entity">No</label>
-                                    <br><br>
+                        <label for="name"> Are you a partner, director or trustee in any
+                            other entity?:<span class="required">*</span></label>
+                        <input type="radio" id="Yes" value="yes"><label for="entity">Yes</label>&nbsp<input type="radio"
+                            id="no" value="no"><label for="entity">No</label>
+                        <br><br>
 
-            <h1 class="text-center text-Black b-text">Tributary Bonds.</h1><br>
-                    <form action="/action_page.php">
-                            <label for="name"> Would you like to declare your relationship with any other taxpayer?:<span class="required">*</span></label>
-                                    <input type="radio" id="Yes" value="yes"><label for="entity">Yes</label>&nbsp<input type="radio" id="no" value="no"><label for="entity">No</label>
-                                    <br><br>
-            <h1 class="text-center text-Black b-text">Details Of Upload Document.</h1><br>
-            <h2 class="text-left text-black c-text">Upload Document</h2><br>
-                    <form action="/action_page.php">
-                            <label for="myfile"> Upload Supporting Document for Registration:<span class="required">*</span></label>
-                                    <input type="file" id="myfile" name="myfile"multiple><br><br>
-                                    </form>
-                                    </body>
-                                    </html>
-
-
-
-
-
-
-
-
-
-
-            <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                        <h1 class="text-center text-Black b-text">Tributary Bonds.</h1>
                         <br>
-                                        
-                                
-                                
+                        <form action="/action_page.php">
+                            <label for="name"> Would you like to declare your
+                                relationship with any other taxpayer?:<span class="required">*</span></label>
+                            <input type="radio" id="Yes" value="yes"><label for="entity">Yes</label>&nbsp<input
+                                type="radio" id="no" value="no"><label for="entity">No</label>
+                            <br><br>
+                </div>
+                <!--
+
+
+    
+                                -->
+                <div class="jumbotron" id="documents">
+
+                    <h1 class="text-center text-Black b-text">Details Of Upload
+                        Document.</h1><br>
+                    <h2 class="text-left text-black c-text">Upload Document</h2>
+                    <br>
+                    <form action="/action_page.php">
+                        <label for="myfile"> Upload Supporting Document for
+                            Registration:<span class="required">*</span></label>
+                        <input type="file" id="myfile" name="myfile" multiple><br><br>
+                    </form>
+                </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+<br>
+
+
+
 
 </html>
