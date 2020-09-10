@@ -30,3 +30,29 @@ Input[text=text],select.textarea{
 label{
     padding:12px 12px 12px 0;
 }
+#contact{
+background-color: burlywood;
+}
+#family{
+background-color: darkslategray;
+}
+#person{
+    background-color: powderblue;
+
+}
+#account{
+background-color: slateblue;
+}
+#documents{
+    background-color: wheat;
+
+}
+#heading{
+    background-color: steelblue;
+}
+.jumbotron{
+    margin: 1%;
+    padding: 1%;
+}
+*{
+}
