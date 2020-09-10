@@ -7,16 +7,14 @@
 label{
     
     width: 120px;
-    horizontal-align: top;
-
+    
 }
 .required{
     color: darkred;
 }
 .h-text{
-    text-align: center;
-    
-    text- color: brown;
+    text-align: center; 
+    color: brown;
     
 }
 Input[text=text],select.textarea{
@@ -29,4 +27,31 @@ Input[text=text],select.textarea{
 }
 label{
     padding:12px 12px 12px 0;
+}
+#contact{
+background-color: burlywood;
+}
+#family{
+background-color: darkslategray;
+}
+#person{
+    background-color: powderblue;
+
+}
+#address{
+    background-color: burlywood; 
+}
+#account{
+background-color: slateblue;
+}
+#documents{
+    background-color: wheat;
+
+}
+#heading{
+    background-color: steelblue;
+}
+.jumbotron{
+    margin: 1%;
+    padding: 1%;
 }
