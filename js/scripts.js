@@ -65,6 +65,13 @@ jQuery(document).ready(function () {
   $(".button").click(function () {
     $("#signup").hide()
   });
-
-
 });
+
+var modal = document.getElementById('signup');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}

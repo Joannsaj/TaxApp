@@ -120,3 +120,29 @@ li a:hover:not(.active) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+#contact h2{
+  text-align: center;
+}
+#contact{
+  background-color:silver;
+  color: black;
+  font-family: 'Grandstander', serif;
+  float: left;
+}
+#contactdetails h2{
+  text-align: left;
+}
+
+footer{
+  text-align: center;
+  padding-top: 3px;
+  font-family: 'Grandstander', serif;
+}
+
+footer p{
+  margin-top: 10px;
+  font-family: 'Grandstander', serif;
+
+}
